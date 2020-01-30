@@ -1,4 +1,7 @@
-# soundscape2020spring
+# The Burgh to the Big Apple
+This sound journey follows my weekend trip from Pittsburgh to New York City for a Broadway show with my family.
+
+
 This project uses the following sounds from freesounds.org:
 
 * crowd int busy diner NYC, USA by kyles (https://freesound.org/people/kyles/sounds/452929/) CC-0
