@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="soundscape_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="92.0118713630" zoom="23.6925949631" rate="16000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="The Burgh to the Big Apple_data" version="1.3.0" audacityversion="2.3.3" sel0="56.7920971065" sel1="56.7920971065" vpos="0" h="0.0000000000" zoom="10.4837216805" rate="16000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
-	<wavetrack name="facetime ring" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="16000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="facetime ring" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="16000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="194109">
 				<waveblock start="0">
@@ -142,20 +142,55 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="eta" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="16000" gain="2.818383" pan="0.0" colorindex="0">
-		<waveclip offset="45.33337500" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="62208">
+	<wavetrack name="eta" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="16000" gain="3.162278" pan="0.0" colorindex="0">
+		<waveclip offset="45.69850000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="60925">
 				<waveblock start="0">
-					<simpleblockfile filename="eff1e457.au" len="1481" min="-0.000178" max="0.000227" rms="0.000032"/>
-				</waveblock>
-				<waveblock start="1481">
-					<simpleblockfile filename="eff1e359.au" len="60727" min="-0.392201" max="0.462357" rms="0.094585"/>
+					<simpleblockfile filename="eff20a9b.au" len="60925" min="-0.317967" max="0.353812" rms="0.066789"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="long traffic" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="16000" gain="1.995262" pan="0.0" colorindex="0">
+	<wavetrack name="car white noise" isSelected="0" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="96000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="43.99476248" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="793500">
+				<waveblock start="0">
+					<simpleblockfile filename="eff20a5d.au" len="159018" min="-0.295633" max="0.283775" rms="0.088555"/>
+				</waveblock>
+				<waveblock start="159018">
+					<simpleblockfile filename="eff20ff7.au" len="159018" min="-0.317722" max="0.358109" rms="0.092251"/>
+				</waveblock>
+				<waveblock start="318036">
+					<simpleblockfile filename="eff2038c.au" len="262144" min="-0.323208" max="0.311914" rms="0.090879"/>
+				</waveblock>
+				<waveblock start="580180">
+					<simpleblockfile filename="eff202d2.au" len="213320" min="-0.419106" max="0.353417" rms="0.097435"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="car white noise" isSelected="0" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="96000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="43.99476248" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="793500">
+				<waveblock start="0">
+					<simpleblockfile filename="eff20be9.au" len="159018" min="-0.244962" max="0.299413" rms="0.082132"/>
+				</waveblock>
+				<waveblock start="159018">
+					<simpleblockfile filename="eff206f1.au" len="159018" min="-0.254873" max="0.282497" rms="0.080873"/>
+				</waveblock>
+				<waveblock start="318036">
+					<simpleblockfile filename="eff20d44.au" len="262144" min="-0.257944" max="0.319849" rms="0.075953"/>
+				</waveblock>
+				<waveblock start="580180">
+					<simpleblockfile filename="eff209e2.au" len="213320" min="-0.261793" max="0.278478" rms="0.080988"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="long traffic" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="16000" gain="1.995262" pan="0.0" colorindex="0">
 		<waveclip offset="52.06085417" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="259974">
 				<waveblock start="0">
